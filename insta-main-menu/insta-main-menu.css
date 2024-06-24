@@ -1,0 +1,35 @@
+.home-page{
+    width: 100%;
+    border: 1px ;
+}
+.navigation-bar{
+    width: 30%;
+    height: 870px;
+    border: 1px solid;
+}
+.instagram-word-logo-box{
+    height: 80px;
+    width: 100%;
+    border: 1px solid;
+}
+.instagram-word-logo{
+    background-image: url(https://www.pngitem.com/pimgs/m/132-1327993_instagram-logo-word-png-transparent-png.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    height: 100%;
+}
+.home-word{
+    display: flex;
+}
+.home{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+.instagram-home-word{
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 1000;
+}
