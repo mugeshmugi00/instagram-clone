@@ -1,0 +1,14 @@
+.suggestion-requst-container{
+    border: 1px solid;
+    width: 25%;
+    height: 500px;
+}
+.Suggested{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    padding: 18px;
+    border: none;
+    background-color: transparent;
+}
