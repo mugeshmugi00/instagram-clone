@@ -1,34 +1,38 @@
-.home-page{
-    width: 100%;
-    border: 1px ;
+.maincontainer{
+    width: 20%;
 }
-.navigation-bar{
-    width: 30%;
-    height: 870px;
-}
-.instagram-word-logo-box{
-    height: 60px;
-    width: 100%;
-}
-.instagram-word-logo{
+.instagram-img{
     background-image: url(https://www.pngitem.com/pimgs/m/132-1327993_instagram-logo-word-png-transparent-png.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 30px;
-    height: 100%;
-}
-.home-word{
-    display: flex;
-}
-.home{
-    display: flex;
-    align-items: center;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 200px;
     margin-left: 45px;
 }
-.instagram-home-word{
-    padding-left: 1rem;
+.navigation-bar{
+   
+}
+.Home-btns{
+    height: 50px;
+    border: none;
+    background-color: transparent;
 }
 .icons{
-    height: 23px;
-    width: 23px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    font-size: 30px;
+}
+.Bar{
+    margin-left: 45px;
+    display: flex;
+    width: 200px;
+    border-radius: 10px;
+}
+.Bar:hover{
+    background-color: rgb(175, 252, 226);
+}
+.More{
+    margin-top: 2rem;
 }
