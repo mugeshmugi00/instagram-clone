@@ -21,6 +21,7 @@
     border: none;
     color: rgba(0, 174, 255, 0.952);
     font-weight: 900;
+    background-color: transparent;
 }
 .suggestion-profile{
     height: 60px;
