@@ -1,10 +1,16 @@
 
-
+.total-page{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
 .main-container{
     width: 350px;
     height: 410px;
     border: 1px solid;
     margin: auto;
+    
 }
 .insta-img{
     background-image: url(https://www.pngitem.com/pimgs/m/132-1327993_instagram-logo-word-png-transparent-png.png);
@@ -78,7 +84,7 @@
 .get-the-app{
     width: 350px;
     height: 95px;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: auto;
 }
 .app{
@@ -89,4 +95,24 @@
     align-items: center;
     justify-content: center;
 
+}
+.playstore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.img1{
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png);
+    height: 200px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img2{
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png);
+    height: 202px;
+    width: 125px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
