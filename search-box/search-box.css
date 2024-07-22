@@ -1,5 +1,5 @@
 .search-main-container{
-    width: 25%;
+    width: 355px;
     height: 900px;
     border: 1px solid;
 }
@@ -22,4 +22,34 @@
     height: 500px;
     border: 1px solid #aaa9a9;
     margin-top: 2rem;
+}
+.profiles-boxs{
+    width: 100%;
+    height: 62px;
+    /* border: 1px solid; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+}
+.profiles-boxs-img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    position: absolute;
+    left: 20px;
+}
+.name-name{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 85px;
+}
+.profiles-boxs-name{
+    font-weight: 600;
+}
+.close{
+    position: absolute;
+    right: 10px;
 }
