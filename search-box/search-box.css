@@ -8,6 +8,7 @@
 }
 .box{
     padding-left: 20px;
+    position: relative;
 }
 .search-bor{
     width: 90%;
@@ -16,6 +17,12 @@
     border: none;
     border-radius: 10px;
     padding-left: 20px;
+    position: relative;
+}
+.close-curcle{
+    position: absolute;
+    right: 45px;
+    top: 8px;
 }
 .profiles-search-box{
     width: 100%;
