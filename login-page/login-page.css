@@ -50,6 +50,9 @@
   justify-content: center;
   align-items: center;
 }
+.input-type:hover {
+  cursor: pointer;
+}
 .login-btn {
   width: 270px;
   height: 36px;
@@ -98,6 +101,9 @@
   background: transparent;
   font-weight: 750;
 }
+.sign-btn:hover {
+  cursor: pointer;
+}
 /*  */
 .get-the-app {
   width: 350px;
@@ -121,6 +127,9 @@
   align-items: center;
   gap: 10px;
   padding: 5px;
+}
+.playstore:hover {
+  cursor: pointer;
 }
 .img1 {
   background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png);
