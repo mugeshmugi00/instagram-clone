@@ -1,0 +1,79 @@
+.maincontainer {
+  height: 550px;
+  width: 360px;
+  border: 1px solid;
+  display: grid;
+  /* align-items: center; */
+}
+
+.followReq {
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.followReq_img {
+  height: 45px;
+  width: 45px;
+  /* border: 1px solid; */
+  border-radius: 25px;
+}
+.followReq-name {
+  width: 125px;
+  /* border: 1px solid; */
+}
+.followReq-name1 {
+  font-weight: 600;
+}
+
+.confirm-btn {
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(12, 178, 255);
+  color: white;
+  border: none;
+}
+.confirm-btn:hover {
+  cursor: pointer;
+}
+
+.delete-btn {
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+}
+.delete-btn:hover {
+  cursor: pointer;
+}
+.followReq_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1 {
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port1.png);
+}
+.img2 {
+  background-image: url(../images/superaa.png);
+}
+.img3 {
+  background-image: url(../images/bugatti.webp);
+}
+.img4 {
+  background-image: url(../images/tesla.png);
+}
+.img5 {
+  background-image: url(../images/emirats.png);
+}
+.img6 {
+  background-image: url(../images/boringcompany.png);
+}
+.img7 {
+  background-image: url(../images/blue.jpg);
+}
+.img8 {
+  background-image: url(../images/spacex.png);
+}
