@@ -86,4 +86,6 @@
 .close {
   position: absolute;
   right: 10px;
+  max-height: 5px;
+  max-width: 5px;
 }
