@@ -34,27 +34,27 @@
 
 /* box1 */
 .profile-box1{
-    background-image: url(../image/profile.jpg);
+    background-image: url(../images/profile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .profile-box2{
-    background-image: url(../image/condo1.jpg);
+    background-image: url(../images/condo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .profile-box3{
-    background-image: url(../image/profileimg1.jpg);
+    background-image: url(../images/profileimg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .profile-box4{
-    background-image: url(../image/condo2.jpg);
+    background-image: url(../images/condo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .profile-box5{
-    background-image: url(../image/condo3.jpg);
+    background-image: url(../images/condo3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -97,27 +97,27 @@
 
 /* postimage*/
 .postimage1{
-    background-image: url(../image/inst3\ \(1\).jpg);
+    background-image: url(../images/inst3\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .postimage2{
-    background-image: url(../image/inst3\ \(2\).jpg);
+    background-image: url(../images/inst3\ \(2\).jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .postimage3{
-    background-image: url(../image/im1.avif);
+    background-image: url(../images/im1.avif);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .postimage4{
-    background-image: url(../image/inst3\ \(3\).jpg);
+    background-image: url(../images/inst3\ \(3\).jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .postimage5{
-    background-image: url(../image/im2.avif);
+    background-image: url(../images/im2.avif);
     background-repeat: no-repeat;
     background-size: contain;
 }
