@@ -1,22 +1,39 @@
+/* styles.css */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.content {
-  width: 80%; /* Adjust as needed */
-  margin: 20px auto; /* Center the content */
-  padding: 20px;
-  border: 1px solid #ccc;
-  height: 300px; /* Adjust the height as needed */
-  overflow-y: scroll; /* Add vertical scroll bar */
+.container {
+    display: flex;
+    justify-content: center; /* Center align the center box */
+    position: relative;
+    height: 100vh; /* Full viewport height */
 }
 
-.content h1 {
-  text-align: center;
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
 }
 
-.content p {
-  line-height: 1.6;
+.left {
+    position: fixed;
+    left: 0;
+    background-color: #3498db;
+}
+
+.center {
+    background-color: #e74c3c;
+    z-index: 1; /* Ensure it appears above the fixed boxes */
+}
+
+.right {
+    position: fixed;
+    right: 0;
+    background-color: #2ecc71;
 }

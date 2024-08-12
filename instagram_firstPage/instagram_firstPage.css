@@ -1,16 +1,18 @@
 .mainSection {
-  display: grid;
-  grid-template-rows: repeat(3, fr);
+  display: flex;
+  position: relative;
 }
 .maincontainer {
   width: 200px;
   /* border: 1px solid; */
+  position: fixed;
+  left: 0;
 }
 .instagram-img {
-  background-image: url(https://www.pngitem.com/pimgs/m/132-1327993_instagram-logo-word-png-transparent-png.png);
+  background-image: url(../images/instaimg.png);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   height: 46px;
   width: 143px;
   margin-left: 10px;
@@ -89,6 +91,12 @@
   margin-top: 2rem;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.home_page {
+  z-index: 1;
+  position: relative;
+  height: 100vh;
+  left: 192px;
+}
 /* main-container */
 .main-container {
   border: 1px solid black;
@@ -106,16 +114,24 @@
 /* story */
 .story-section {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: center;
   padding: 10px 10px;
   gap: 13px;
   cursor: pointer;
 }
-
+.box-post-section {
+  height: 50px;
+  width: 50px;
+  border: 3px solid red;
+  border-radius: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* box */
 .box {
-  height: 80px;
-  width: 80px;
+  height: 65px;
+  width: 65px;
   border: 3px solid red;
   border-radius: 50px;
   background-position: center;
@@ -186,21 +202,23 @@
 /* post-sec */
 .post-section {
   /* height: 1000px; */
-  width: 60%;
+  width: 560px;
   /* border: 1px solid black; */
   display: grid;
   /* padding: 50px 20px; */
   /* display: flex; */
   justify-content: space-evenly;
+  margin: auto;
 }
 
 /* post-name */
 .post-name {
   display: flex;
   height: 85px;
-  /* width: 550px; */
+  width: 550px;
   /* border: 1px solid black; */
   padding: 5px 5px;
+  gap: 20px;
 }
 
 /* post */
@@ -248,7 +266,7 @@
   gap: 20px;
   display: flex;
   align-items: center;
-  padding: 0px 0px;
+  /* padding: 0px 0px; */
   cursor: pointer;
 }
 
@@ -276,11 +294,15 @@
 .prf-name {
   display: grid;
   grid-auto-rows: 30px;
+  justify-content: center;
+  align-items: center;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////// */
 .suggestion-requst-container {
   width: 350px;
   /* border: 1px solid; */
+  position: fixed;
+  right: 0;
 }
 .Suggested {
   display: flex;
@@ -291,8 +313,11 @@
   border: none;
   background-color: transparent;
 }
+.btn:hover {
+  cursor: pointer;
+}
 .suggestion {
-  width: 100%;
+  width: 350px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -303,6 +328,9 @@
   color: rgba(0, 174, 255, 0.952);
   font-weight: 900;
   background-color: transparent;
+}
+.suggestion-btn:hover {
+  cursor: pointer;
 }
 .suggestion-profile {
   height: 60px;
@@ -319,6 +347,9 @@
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.img-text:hover {
+  cursor: pointer;
 }
 .about-text {
   margin-top: 2rem;
