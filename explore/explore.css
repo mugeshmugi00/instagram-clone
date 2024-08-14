@@ -1,0 +1,41 @@
+.exploreMain {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.ExploreBox {
+  padding: 150px;
+  /* width: 300px;
+  height: 300px; */
+  border: 1px solid;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box1 {
+  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/1.jpg);
+}
+.box2 {
+  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/12.jpg);
+}
+.box3 {
+  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/23.jpg);
+}
+.box4 {
+  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/21.jpg);
+}
+.box5 {
+  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/16.jpg);
+}
+.box6 {
+  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/4.jpg);
+}
+.box7 {
+  background-image: url(https://preview.colorlib.com/theme/photon/images/img_2.jpg);
+}
+.box8 {
+  background-image: url(https://preview.colorlib.com/theme/photon/images/img_3.jpg);
+}
+.box9 {
+  background-image: url(https://preview.colorlib.com/theme/photon/images/img_5.jpg);
+}
