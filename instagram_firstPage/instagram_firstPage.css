@@ -1,6 +1,7 @@
 .mainSection {
   display: flex;
   position: relative;
+  justify-content: center;
 }
 /* ///////////////////////////////////////////////////////////////////////// */
 .button {
@@ -9,10 +10,14 @@
 }
 /* ///////////////////////////////////////////////////////////////////////// */
 .maincontainer {
-  width: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-right: 1px solid;
+  /* width: 200px; */
   /* border: 1px solid; */
   position: fixed;
-  left: 0;
+  left: 5px;
 }
 .instagram-img {
   background-image: url(../images/instaimg.png);
@@ -22,6 +27,8 @@
   height: 46px;
   width: 143px;
   margin-left: 10px;
+  margin-top: 45px;
+  margin-bottom: 35px;
 }
 .navigation-bar {
 }
@@ -89,6 +96,7 @@
   width: 200px;
   border-radius: 10px;
   align-items: center;
+  margin-top: 10px;
 }
 .Bar:hover {
   background-color: rgb(219, 239, 248);
@@ -101,7 +109,7 @@
   z-index: 1;
   position: relative;
   height: 100vh;
-  left: 192px;
+  /* left: 192px; */
 }
 /* main-container */
 .main-container {
@@ -111,7 +119,7 @@
 /* header-sec */
 .header-section {
   height: 130px;
-  width: 800px;
+  /* width: 800px; */
   /* border: 1px solid black; */
 }
 
@@ -308,7 +316,7 @@
   width: 350px;
   /* border: 1px solid; */
   position: fixed;
-  right: 0;
+  right: 5px;
 }
 .Suggested {
   display: flex;
