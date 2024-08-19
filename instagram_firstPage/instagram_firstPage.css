@@ -2,6 +2,7 @@
   display: flex;
   position: relative;
   justify-content: center;
+  /* gap: 50px; */
 }
 /* ///////////////////////////////////////////////////////////////////////// */
 .button {
@@ -13,8 +14,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  border-right: 1px solid;
-  /* width: 200px; */
+  border-right: 1px solid rgb(194, 193, 193);
+  width: 250px;
   /* border: 1px solid; */
   position: fixed;
   left: 5px;
@@ -109,7 +110,7 @@
   z-index: 1;
   position: relative;
   height: 100vh;
-  /* left: 192px; */
+  left: -75px;
 }
 /* main-container */
 .main-container {
@@ -307,7 +308,7 @@
 
 .prf-name {
   display: grid;
-  grid-auto-rows: 30px;
+  grid-auto-rows: 22px;
   justify-content: center;
   align-items: center;
 }
@@ -315,7 +316,8 @@
 .suggestion-requst-container {
   width: 350px;
   /* border: 1px solid; */
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   right: 5px;
 }
 .Suggested {

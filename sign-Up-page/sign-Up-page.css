@@ -128,6 +128,10 @@
 }
 /*  */
 /*  */
+.Log_in {
+  text-decoration: none;
+  color: rgb(8, 142, 205);
+}
 .login-page {
   padding: 10px;
 }

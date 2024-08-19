@@ -63,6 +63,13 @@
   font-size: 14px;
   font-weight: 750;
 }
+.login-btn:hover {
+  cursor: pointer;
+}
+.log_inbtn {
+  text-decoration: none;
+  color: white;
+}
 .or {
   display: flex;
   gap: 10px;
