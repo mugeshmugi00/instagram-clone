@@ -1,41 +1,106 @@
-.exploreMain {
-  width: 100%;
+.main-container {
+  border: 1px solid none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* gap: 20px; */
+  /* padding: auto;  */
+  width: 100%;
 }
-.ExploreBox {
+.box {
   padding: 150px;
-  /* width: 300px;
-  height: 300px; */
-  border: 1px solid;
-  background-position: center;
+}
+
+.box1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 50px 50px; */
+}
+
+.box2 {
+  grid-column: 2/4;
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.box1 {
-  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/1.jpg);
-}
-.box2 {
-  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/12.jpg);
-}
+
 .box3 {
-  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/23.jpg);
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .box4 {
-  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/21.jpg);
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .box5 {
-  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/16.jpg);
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .box6 {
-  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/4.jpg);
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .box7 {
-  background-image: url(https://preview.colorlib.com/theme/photon/images/img_2.jpg);
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .box8 {
-  background-image: url(https://preview.colorlib.com/theme/photon/images/img_3.jpg);
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .box9 {
-  background-image: url(https://preview.colorlib.com/theme/photon/images/img_5.jpg);
+  grid-column: span 2;
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port9.png);
+  background-size: cover;
+}
+.box10 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_1.jpg);
+  background-size: cover;
+}
+.box11 {
+  background-size: cover;
+}
+.box12 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_2.jpg);
+  background-size: cover;
+}
+.box13 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_3.jpg);
+  background-size: cover;
+}
+.box14 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_4.jpg);
+  background-size: cover;
+}
+.box15 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_5.jpg);
+  background-size: cover;
+}
+.box16 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_6.jpg);
+  background-size: cover;
+}
+.box17 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_7.jpg);
+  background-size: cover;
+}
+.box18 {
+  background-size: cover;
+}
+.box19 {
+  background-size: cover;
 }
