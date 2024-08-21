@@ -64,7 +64,7 @@
 
 .box9 {
   grid-column: span 2;
-  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port9.png);
+  background-image: url(https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/section_bg02.jpg);
   background-size: cover;
 }
 .box10 {
@@ -72,6 +72,7 @@
   background-size: cover;
 }
 .box11 {
+  background-image: url(https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/about1.jpg);
   background-size: cover;
 }
 .box12 {
@@ -83,6 +84,7 @@
   background-size: cover;
 }
 .box14 {
+  grid-column: span 2;
   background-image: url(https://preview.colorlib.com/theme/shutter/images/img_4.jpg);
   background-size: cover;
 }
@@ -95,12 +97,15 @@
   background-size: cover;
 }
 .box17 {
-  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_7.jpg);
+  grid-row: span 2;
+  background-image: url(https://preview.colorlib.com/theme/bootstrap/carousel-08/images/person-1.jpg);
   background-size: cover;
 }
 .box18 {
+  background-image: url(https://preview.colorlib.com/theme/bootstrap/carousel-08/images/person-3.jpg);
   background-size: cover;
 }
 .box19 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_7.jpg);
   background-size: cover;
 }
