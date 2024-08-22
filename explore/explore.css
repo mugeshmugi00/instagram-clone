@@ -10,7 +10,10 @@
   padding: 150px;
   /* padding: 5px; */
 }
-
+.box:hover {
+  background-color: black;
+  cursor: pointer;
+}
 
 .box1 {
   grid-row-start: 1;
