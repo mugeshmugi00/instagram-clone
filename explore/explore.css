@@ -2,13 +2,15 @@
   border: 1px solid none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* gap: 20px; */
+  gap: 5px;
   /* padding: auto;  */
   width: 100%;
 }
 .box {
   padding: 150px;
+  /* padding: 5px; */
 }
+
 
 .box1 {
   grid-row-start: 1;

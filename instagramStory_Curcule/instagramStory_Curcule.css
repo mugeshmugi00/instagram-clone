@@ -31,3 +31,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.storyimg {
+  background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
