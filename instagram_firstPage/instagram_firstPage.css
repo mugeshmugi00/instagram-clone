@@ -13,7 +13,7 @@
 .maincontainer {
   display: flex;
   flex-direction: column;
-  height: 765px;
+  /* height: 765px; */
   border-right: 1px solid rgb(194, 193, 193);
   /* width: 250px; */
   /* border: 1px solid; */
@@ -26,7 +26,7 @@
   background-repeat: no-repeat;
   margin-bottom: 5px;
   height: 46px;
-  width: 143px;
+  /* width: 143px; */
   margin-left: 10px;
   margin-top: 45px;
   margin-bottom: 35px;
@@ -42,10 +42,10 @@
   cursor: pointer;
 }
 .icons {
-  height: 30px;
+  /* height: 30px; */
   width: 30px;
   padding: 10px;
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 .reels {
   background-image: url(../images/instagram-reels-logo-18CF7D9510-seeklogo.com.png);
@@ -229,7 +229,7 @@
 /* post-name */
 .post-name {
   display: flex;
-  height: 85px;
+  /* height: 85px; */
   width: 550px;
   /* border: 1px solid black; */
   padding: 5px 5px;
@@ -278,7 +278,7 @@
 }
 
 .icons {
-  gap: 20px;
+  /* gap: 20px; */
   display: flex;
   align-items: center;
   /* padding: 0px 0px; */
