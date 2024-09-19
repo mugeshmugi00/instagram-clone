@@ -15,7 +15,7 @@
   flex-direction: column;
   height: 765px;
   border-right: 1px solid rgb(194, 193, 193);
-  width: 250px;
+  /* width: 250px; */
   /* border: 1px solid; */
   position: fixed;
   left: 5px;
