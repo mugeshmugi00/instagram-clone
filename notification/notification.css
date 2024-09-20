@@ -1,4 +1,4 @@
-.main-con {
+.Notificationsmain-con {
   height: 616px;
   width: 406px;
   /* border: 1px solid; */
@@ -12,7 +12,7 @@ h2 {
   padding: 0px 26px;
 }
 
-.follow-req-page {
+.Notificationsfollow-req-page {
   height: 71px;
   border-bottom: 1px solid rgb(139, 117, 139);
   display: flex;
@@ -21,15 +21,15 @@ h2 {
   padding: 0px 26px 12px;
   column-gap: 103px;
 }
-.follow-reqst {
+.Notificationsfollow-reqst {
   text-decoration: none;
   color: #000;
 }
-.angle-rightSide {
+.Notificationsangle-rightSide {
   color: #000;
 }
 
-.img1 {
+.Notificationsimg1 {
   height: 35px;
   width: 35px;
   border: 1px solid;
@@ -39,7 +39,7 @@ h2 {
   background-repeat: no-repeat;
 }
 
-.img2 {
+.Notificationsimg2 {
   height: 35px;
   width: 35px;
   border: 2px solid;
@@ -53,12 +53,12 @@ h2 {
   background-repeat: no-repeat;
 }
 
-.profile {
+.Notificationsprofile {
   display: flex;
   gap: 25px;
 }
 
-.angle-right {
+.Notificationsangle-right {
   position: absolute;
   right: 23px;
   bottom: 34px;
@@ -73,7 +73,7 @@ h3 {
   font-weight: 700;
 }
 
-.php1 {
+.Notificationsphp1 {
   margin: 0%;
   color: #000;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -82,7 +82,7 @@ h3 {
   font-weight: 500;
 }
 
-.php2 {
+.Notificationsphp2 {
   margin-top: 3px;
   margin-bottom: 23px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -91,7 +91,7 @@ h3 {
   font-weight: 500;
 }
 
-.weekly-div {
+.Notificationsweekly-div {
   /* height: 65px; */
   border-bottom: 1px solid rgb(139, 117, 139);
   display: flex;
@@ -99,7 +99,7 @@ h3 {
   gap: 14px;
 }
 
-.img3 {
+.Notificationsimg3 {
   height: 42px;
   width: 42px;
   background-image: url(https://preview.colorlib.com/theme/libro/images/image_1.jpg);
@@ -117,7 +117,7 @@ h4 {
   padding: 0px 26px;
 }
 
-.div-1 {
+.Notificationsdiv-1 {
   /* height: 65px; */
   /* border: 1px solid; */
   display: flex;
@@ -126,7 +126,7 @@ h4 {
   align-items: center;
 }
 
-.div-2 {
+.Notificationsdiv-2 {
   /* border: 1px solid; */
   display: flex;
   padding: 5px 26px;
@@ -134,16 +134,16 @@ h4 {
   align-items: center;
 }
 
-.content1 {
+.Notificationscontent1 {
   width: 208px;
 }
 
-.profile1 {
+.Notificationsprofile1 {
   display: flex;
   gap: 14px;
 }
 
-.reels1 {
+.Notificationsreels1 {
   height: 40px;
   width: 40px;
   border: 2px solid;
@@ -154,24 +154,24 @@ h4 {
   background-size: cover;
 }
 
-.reels2 {
+.Notificationsreels2 {
   background-image: url(https://preview.colorlib.com/theme/shutter/images/img_9.jpg);
 }
 
-.reels3 {
+.Notificationsreels3 {
   background-image: url(https://preview.colorlib.com/theme/dogger/images/dogger_img_sm_1.jpg);
 }
 
-.reels4 {
+.Notificationsreels4 {
   background-image: url(https://preview.colorlib.com/theme/dogger/images/dogger_img_sm_2.jpg);
 }
-.profile2 {
+.Notificationsprofile2 {
   display: flex;
   gap: 18px;
   position: relative;
 }
 
-.img4 {
+.Notificationsimg4 {
   height: 35px;
   width: 35px;
   border: 2px solid;
@@ -185,28 +185,28 @@ h4 {
   background-repeat: no-repeat;
 }
 
-.img5 {
+.Notificationsimg5 {
   background-image: url(https://preview.colorlib.com/theme/libro/images/image_4.jpg);
 }
 
-.img6 {
+.Notificationsimg6 {
   background-image: url(https://preview.colorlib.com/theme/libro/images/image_5.jpg);
 }
 
-.img7 {
+.Notificationsimg7 {
   background-image: url(https://preview.colorlib.com/theme/libro/images/image_6.jpg);
 }
-.name {
+.Notificationsname {
   color: black;
   font-size: 14px;
 }
 
-.name_tag {
+.Notificationsname_tag {
   color: #116faa;
   font-size: 14px;
 }
 
-.post {
+.Notificationspost {
   color: rgb(155, 151, 151);
   font-size: 14px;
 }
