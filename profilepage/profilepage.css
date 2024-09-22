@@ -1,19 +1,19 @@
 /* main-container */
-.main-container {
+.profilePage_main-container {
   /* height: 10000px; */
   width: 70%;
   /* border: 1px solid black; */
 }
 
 /* header-section */
-.header-section {
+.profilePage_header-section {
   /* height: 400px; */
   width: 100%;
   /* border: 1px solid black; */
 }
 
 /* profile */
-.profile {
+.profilePage_profile {
   display: flex;
 }
 
@@ -103,7 +103,7 @@
 }
 
 /* box */
-.box {
+.profilePage_box {
   margin: auto;
   height: 80px;
   width: 80px;
@@ -128,7 +128,7 @@
 }
 
 /* icon-box */
-.icon-section {
+.profilePage_icon-section {
   /* height: 80px; */
   width: 100%;
   cursor: pointer;
@@ -136,7 +136,7 @@
 }
 
 /* icon-box */
-.icon-box {
+.profilePage_icon-box {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -151,7 +151,7 @@
 }
 
 /* post */
-.post {
+.profilePage_post {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
@@ -208,7 +208,7 @@
 }
 
 /* footer-section */
-.footer-section {
+.profilePage_footer-section {
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -220,7 +220,7 @@
 } */
 
 /* footer-text */
-.footer-text {
+.profilePage_footer-text {
   display: flex;
   justify-content: center;
   font-size: 10px;

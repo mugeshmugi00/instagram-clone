@@ -1,18 +1,25 @@
 .suggestion-requst-container {
   width: 350px;
   /* border: 1px solid; */
+  /* position: fixed; */
+  position: absolute;
+  right: 10px;
 }
 .Suggested {
   display: flex;
   justify-content: space-between;
+  width: 350px;
 }
-.btn {
+.suggestion_btn {
   padding: 18px;
   border: none;
   background-color: transparent;
 }
+.suggestion_btn:hover {
+  cursor: pointer;
+}
 .suggestion {
-  width: 100%;
+  width: 350px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -23,6 +30,9 @@
   color: rgba(0, 174, 255, 0.952);
   font-weight: 900;
   background-color: transparent;
+}
+.suggestion-btn:hover {
+  cursor: pointer;
 }
 .suggestion-profile {
   height: 60px;
@@ -35,55 +45,62 @@
   grid-auto-rows: 20px;
   align-items: center;
 }
-.img-text {
+.suggestion_img-text {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.suggestion_img-text:hover {
+  cursor: pointer;
 }
 .about-text {
   margin-top: 2rem;
   color: rgb(139, 117, 139);
   text-align: center;
 }
-.img1 {
+.suggestion_img1 {
   background-image: url(https://preview.colorlib.com/theme/capture/images/image_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
 }
-.img2 {
+.suggestion_img2 {
   background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
 }
-.img3 {
+.suggestion_img3 {
   background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/12.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
 }
-.img4 {
+.suggestion_img4 {
   background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/11.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
 }
-.img5 {
+.suggestion_img5 {
   background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/14.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
 }
-.img6 {
+.suggestion_img6 {
   background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
 }
-.img7 {
+.suggestion_img7 {
   background-image: url(https://preview.colorlib.com/theme/capture/images/image_6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
+}
+.suggestion_h4{
+  padding: inherit;
+  line-height: 1.5;
 }
