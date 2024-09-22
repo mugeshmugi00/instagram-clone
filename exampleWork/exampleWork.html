@@ -3,107 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Popup Example</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        .box {
-            width: 500px;
-            height: 500px;
-            border: 1px solid;
-            position: relative;
-        }
-        
-        .main {
-            display: flex;
-            gap: 20px;
-        }
-
-        #btn {
-            width: 100px;
-            height: 30px;
-            border: none;
-            background-color: black;
-            color: white;
-            cursor: pointer;
-        }
-
-        /* Popup style */
-        .popup {
-            display: none;
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 700px;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: white;
-            z-index: 999;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        .popup-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .close-popup {
-            background-color: red;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-        }
-
-        /* Disable other boxes */
-        .disabled {
-            pointer-events: none;
-            opacity: 0.5;
-        }
-
-        .hide {
-            display: none;
-        }
+      body {
+        font-family: Arial, sans-serif;
+    }
+    
+    button {
+        margin: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    
+    .popup {
+        display: none; /* Hidden by default */
+        position: absolute;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+    }
+    
+    .popup.active {
+        display: block;
+    }
+    
     </style>
 </head>
 <body>
-    <main class="main">
-        <div class="box box1">
-            <button id="btn" onclick="openPopup()">Menu</button>
-        </div>
-        <div class="box box2"></div>
-        <div class="box box3"></div>
-    </main>
 
-    <div class="popup" id="popup">
-        <div class="popup-content">
-            <h2>Full-Screen Popup</h2>
-            <button class="close-popup" onclick="closePopup()">Close</button>
-        </div>
-    </div>
+    <button class="popup-btn">Button 1</button>
+    <button class="popup-btn">Button 2</button>
+    <button class="popup-btn">Button 3</button>
+    <button class="popup-btn">Button 4</button>
+
+    <div class="popup">This is a popup!</div>
 
     <script>
-        function openPopup() {
-            // Show the popup
-            document.getElementById('popup').style.display = 'block';
+      // Get all the buttons with class 'popup-btn'
+const buttons = document.querySelectorAll('.popup-btn');
 
-            // Disable and hide other boxes
-            document.querySelector('.box2').classList.add('disabled');
-            document.querySelector('.box3').classList.add('disabled');
+// Get the popup element
+const popup = document.querySelector('.popup');
 
-            // Hide the other boxes completely
-            document.querySelector('.box2').classList.add('hide');
-            document.querySelector('.box3').classList.add('hide');
+// Loop through each button and add click event listener
+buttons.forEach(button => {
+    button.addEventListener('click', function(event) {
+        // Get the button's position relative to the page
+        const buttonRect = button.getBoundingClientRect();
+
+        // Toggle the popup visibility
+        if (popup.classList.contains('active')) {
+            popup.classList.remove('active');
+        } else {
+            popup.classList.add('active');
+
+            // Position the popup at the right corner of the button
+            popup.style.top = `${buttonRect.bottom}px`;
+            popup.style.left = `${buttonRect.right}px`;
         }
+    });
+});
 
-        function closePopup() {
-            // Hide the popup
-            document.getElementById('popup').style.display = 'none';
+// Close popup when clicking outside
+document.addEventListener('click', function(event) {
+    // If the click is not on a button or inside the popup, close the popup
+    if (!event.target.closest('.popup-btn') && !event.target.closest('.popup')) {
+        popup.classList.remove('active');
+    }
+});
 
-            // Enable and show other boxes
-            document.querySelector('.box2').classList.remove('disabled', 'hide');
-            document.querySelector('.box3').classList.remove('disabled', 'hide');
-        }
     </script>
 </body>
 </html>
