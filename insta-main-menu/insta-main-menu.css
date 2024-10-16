@@ -3,7 +3,7 @@
   /* border: 1px solid; */
 }
 .instagram-img {
-  background-image: url(https://www.pngitem.com/pimgs/m/132-1327993_instagram-logo-word-png-transparent-png.png);
+  background-image: url(http://127.0.0.1:5501/images/instaimg.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 30px;

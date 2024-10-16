@@ -14,7 +14,7 @@
   margin: auto;
 }
 .insta-img {
-  background-image: url(https://www.pngitem.com/pimgs/m/132-1327993_instagram-logo-word-png-transparent-png.png);
+  background-image: url(http://127.0.0.1:5501/images/instaimg.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 61%;
@@ -29,18 +29,26 @@
   /* border: 1px solid; */
 }
 .username {
-  width: 260px;
+  width: 85%;
   height: 36px;
   background-color: rgb(250, 250, 250);
   border: 0.3px solid rgba(201, 198, 198, 0.83);
   padding-left: 10px;
 }
 .password {
-  width: 260px;
+  width: 85%;
   height: 36px;
   background-color: rgb(250, 250, 250);
   border: 0.3px solid rgba(201, 198, 198, 0.83);
   padding-left: 10px;
+  
+}
+.input-type{
+  position: relative;
+}
+.eye-icon{
+  position: absolute;
+  right: 50px;
 }
 .input-type {
   width: 100%;
@@ -155,4 +163,9 @@
 .Sign_up {
   text-decoration: none;
   color: rgb(12, 178, 255);
+}
+/*  */
+.error{
+  color: red;
+  padding-left: 38px;
 }
